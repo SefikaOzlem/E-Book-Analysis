@@ -5,56 +5,100 @@ EXAMPLES OF REQUESTED OUTPUT
 For this example, we will consider (Wikibooks contributors, 2020b) and (Wikibooks contributors, 2020a) e-books. To calculate their word frequencies, we will use (Online Word Counter, n.d.) website, an online service for text analysis. You can use this tool to compare your results and check their accuracy. Assume that when the user selected the e-book “Non-Programmer's Tutorial for Python 2.6”, the console output is expected to be similar to the table below (try to make your console output as orderly as possible, learn about advanced python console output and string manipulation for this purpose):
 
 BOOK 1: Programmer's Tutorial for Python 2.6
+
 NO WORD FREQ_1
+
 1 print 520
+
 2 number 268
+
 3 program 179
+
 4 python 158
-5 + 151
+
+5 +  151
+
 6 input 141
+
 7 list 137
+
 8 function 131
+
 9 menu 100
+
 10 true 96
+
 11 type 92
+
 12 item 91
+
 13 string 87
+
 14 license 82
+
 15 numbers 82
+
 16 document 75
+
 17 file 75
+
 18 text 72
+
 19 return 68
+
 20 false 67
 
 If the user selected only one e-book, this will be the end of the program. However, if the user selected two e-books, the output should be similar to the table given below:
+
 BOOK 1: Programmer's Tutorial for Python 2.6Programmer's Tutorial for Python 2.6
+
 BOOK 2: Programmer's Programmer's Tutorial for Python 3Tutorial for Python 3
+
 COMMON WORDS       
+
 NO WORD    FREQ_1     FREQ_2   FREQ_SUM
+
 1 print     520         529      1049 
+
 2 number    268         288      556
+
 3 program   179         177      356
+
 4 python    158         198      356
+
 5 list      137         157      294
 
 
 BOOK 1:Programmer's Tutorial for Python 2.6Programmer's Tutorial for Python 2.6
+
 DISTINCT WORDS
+
 NO  WORD      FREQ_1
+
 1  document    75 
+
 2   raw        66 
+
 3  sections    31
+
 4   title      28
+
 5   invariant  23  
 
 BOOK 2: Programmer's Tutorial for Python 3Programmer's Tutorial for Python 3
+
 DISTINCT WORDS
+
 NO  WORD      FREQ_2
+
 1   path       11
+
 2   python3    11
+
 3  subprocess  10
+
 4    click      8
+
 5  environment  8
 
 Assignment Definition
